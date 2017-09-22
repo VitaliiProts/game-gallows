@@ -17,8 +17,8 @@ while (remainingLetters > 0) {
 	if (guess === null) {
 		// Виходим з ігрового циклу
 		break;
-	}else if(guess.length < !==1) {
-		alert("Будь ласка введіть тільки 1 букву.")
+	} else if(guess.length < !==1) {
+			alert("Будь ласка введіть тільки 1 букву.")
 	} else {
 		// Обновлюєм стан гри
 		for (var j = 0; j < word.length; j++) {
